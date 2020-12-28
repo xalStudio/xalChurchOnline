@@ -1,0 +1,12 @@
+[submodule "server/external_libs/websocketpp"]
+	path = server/external_libs/websocketpp
+	url = git@github.com:zaphoyd/websocketpp.git
+[submodule "server/external_libs/asio"]
+	path = server/external_libs/asio
+	url = git@github.com:chriskohlhoff/asio.git
+[submodule "server/external_libs/json"]
+	path = server/external_libs/json
+	url = git@github.com:nlohmann/json.git
+[submodule "server/external_libs/cpp-httplib"]
+	path = server/external_libs/cpp-httplib
+	url = git@github.com:yhirose/cpp-httplib.git
