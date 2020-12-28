@@ -24,8 +24,6 @@ include_directories("${PROJECT_SOURCE_DIR}/external_libs/json/include")
 include_directories("${PROJECT_SOURCE_DIR}/external_libs/cpp-httplib")
 include_directories(/usr/include/lua5.4/)
 
-#link_directories(${PROJECT_SOURCE_DIR}/extlibs/cryptopp)
-
 set(
   SOURCES
   "${PROJECT_SOURCE_DIR}/src/network/websocket/WebsocketServer.cpp"
