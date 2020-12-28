@@ -1,0 +1,4 @@
+.vscode
+server/builds
+client/cache
+client/node_modules

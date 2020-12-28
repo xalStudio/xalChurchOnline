@@ -1,0 +1,53 @@
+@import "../variables.scss";
+
+#App_TopBar {
+    width: calc(100% - 1rem);
+    height: $app_topBar_height;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+
+    background-color: $theme_widgetBackgroundColor;
+
+    > div {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    #TopBar_Menu {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 0.5rem;
+        cursor: pointer;
+
+        > svg {
+            width: 1.3rem;
+            height: 1.3rem;
+        }
+    }
+
+    #TopBar_ServerStatus > #ServerStatusCircle {
+        display: flex;
+        align-items: center;
+
+        > svg {
+            width: 1.3rem;
+            height: 1.3rem;
+
+            &.offline {
+                color: #bfbfbf;
+            }
+
+            &.notConnected {
+                color: red;
+            }
+
+            &.connected {
+                color: #00da44;
+            }
+        }
+    }
+}

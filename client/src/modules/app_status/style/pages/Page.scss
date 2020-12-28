@@ -1,0 +1,8 @@
+#AppStatusPage {
+    display: flex;
+    flex-direction: column;
+
+    > .Module {
+        flex: 1;
+    }
+}

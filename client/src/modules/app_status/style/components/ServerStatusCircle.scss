@@ -1,0 +1,18 @@
+#ServerStatusCircle {
+    display: flex;
+    align-items: center;
+    
+    > svg {
+        &.offline > path {
+            color: #bfbfbf;
+        }
+
+        &.notConnected > path {
+            color: red;
+        }
+
+        &.connected > path {
+            color: #00da44;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+#AppStatusPage_ServerStatusModule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+
+    #ServerStatusModule_Main {
+        display: flex;
+        align-items: center;
+
+        > #ServerStatusModule_Text, > #ServerStatusModule_StatusText {
+            font-weight: bold;
+        }
+
+        > #ServerStatusModule_Text {
+            margin-right: 1rem;
+            font-size: 2rem;
+        }
+
+        > #ServerStatusModule_Circle > #ServerStatusCircle > svg {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        > #ServerStatusModule_StatusText {
+            margin-left: 0.5rem;
+            font-size: 1.8rem;
+        }
+    }
+
+    > #ServerStatusModule_ServerAddress {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+
+        > div:first-child {
+            font-size: 1.5rem;
+        }
+
+        > div:last-child {
+            margin-left: 0.6rem;
+            font-size: 1.4rem;
+        }
+    }
+
+    > #ServerStatusModule_Buttons {
+        margin-top: 2rem;
+        display: flex;
+
+        > button:first-child {
+            margin-right: 1rem;
+        }
+    }
+}

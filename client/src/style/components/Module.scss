@@ -1,0 +1,10 @@
+@import "../variables.scss";
+
+.Module {
+    border-radius: 10px;
+    background-color: $theme_widgetBackgroundColor;
+
+    &:not(:last-child) {
+        margin-bottom: $app_widget_margin;
+    }
+}

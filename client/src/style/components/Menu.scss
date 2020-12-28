@@ -1,0 +1,27 @@
+@import "../variables.scss";
+
+#App_Menu {
+    display: flex;
+    flex-direction: column;
+
+    background-color: $theme_widgetBackgroundColor;
+
+    > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0.5rem 0;
+        font-size: 1.1rem;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $theme_accentBackground1;
+        }
+
+        &.active {
+            background-color: $theme_accentColor1;
+            font-weight: bold;
+        }
+    }
+}
